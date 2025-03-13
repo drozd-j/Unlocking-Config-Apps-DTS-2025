@@ -1,5 +1,5 @@
 Code files provided in repo:
--dashboard-legend.html
+- dashboard-legend.html
   - HTML and in-line CSS for legend created in a rich text element in the Fires Dashboard
 - dashboard-list.js
   - Arcade for list element in Fires Dashboard showing percent contained gauge for fires
