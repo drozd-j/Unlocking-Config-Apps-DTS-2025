@@ -7,3 +7,5 @@ Code files provided in repo:
   - HTML (w/ stylesheet) for Fires Hub homepage
 - map-popup.js
   - Arcade for web map popup (with "index card" of fire attributes)
+- Unlock the Power of ArcGIS Configurable Apps with HTML, CSS, and Arcade.pdf
+  - PDF of presentation slides
