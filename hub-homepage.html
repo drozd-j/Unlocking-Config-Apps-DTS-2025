@@ -1,0 +1,116 @@
+<style>
+    .hero-banner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        border-radius: 4px;
+        padding: 8px;
+        margin: 64px 32px;
+        gap: 16px
+    }
+
+    .hero-bar {
+        height: 160px;
+        width: 16px;
+        margin: 4px 0px 4px 4px;
+        border-radius: 2px;
+        background-color: #dadada;
+    }
+
+    .hero-text {
+        font-size: 62px;
+        letter-spacing: 1px;
+        color: #dadada
+    }
+
+    .welcome-text {
+        font-size: 32px;
+        padding: 8px;
+        margin: 16px 32px;
+        line-height: 4ch;
+    }
+
+    .mission-container {
+        display: flex;
+        padding: 8px;
+        margin: 16px 32px 0px 32px;
+        gap: 16px
+    }
+
+    .mission-bar {
+        height: 24px;
+        width: 8px;
+        margin: 4px 0px 4px 4px;
+        border-radius: 2px;
+        background-color: #0e0e0e;
+    }
+
+    .mission-text {
+        font-size: 24px;
+        line-height: 2ch;
+    }
+
+    .mission-container + p {
+        font-size: 16px;
+        padding: 8px;
+        margin: 0px 32px 32px;
+        color: #0e0e0e;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fire-btn {
+        background-color: #f8c8c8;
+        border: 2px solid #ff0000;
+        border-radius: 4px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 40px;
+        text-shadow: 1px 1px 2px #888888;
+        padding: 8px 8px 16px 8px;
+        margin: 0px;
+        transition: all 400ms ease-in-out;
+    }
+
+    .fire-btn-link {
+        text-decoration: none !important;
+
+    }
+
+    .fire-btn:hover {
+        text-shadow: 4px 4px 8px #888888;
+        cursor: pointer;
+    }
+
+    .fire-btn-link:hover {
+        outline: none !important
+    }
+</style>
+
+<div class="hero-banner">
+    <div class="hero-bar"></div>
+    <p class="hero-text">Interagency <br /> Fire Hub</p>
+</div>
+<!-- welcome section -->
+<div class="welcome-text">Use this site to explore maps, apps, and data related to wildfire awareness.
+</div>
+<!-- mission section -->
+<div class="mission-container">
+    <div class="mission-bar"></div>
+    <div class="mission-text">Our Mission</div>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+    dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+    dolore eu fugiat nulla pariatur.</p>
+<div class="btn-container">
+    <calcite-button alignment="center" appearance="outline-fill" icon-end="arrow-up-right" kind="neutral" scale="l"
+    width="half" href="https://prof-services.maps.arcgis.com/apps/dashboards/b69b819020874d10a3ff5e30ceecf8d3" target="_blank">Launch Fire Explorer Application</calcite-button>
+</div>
