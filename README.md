@@ -6,4 +6,4 @@ Code files provided in repo:
 - hub-homepage.html
   - HTML (w/ stylesheet) for Fires Hub homepage
 - map-popup.js
-  - Arcade for web map popup (with "index card" of fire information
+  - Arcade for web map popup (with "index card" of fire attributes)
